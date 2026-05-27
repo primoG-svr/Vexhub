@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+Allow: /blog/
+Disallow: /admin/
+Disallow: /private/
+
+Sitemap: https://primoG-svr.github.io/Vexhub/sitemap.xml
+
+# Crawl delay for non-Googlebot user agents
+User-agent: *
+Crawl-delay: 1
+Request-rate: 1/1s
+
+# Specific rules for Googlebot
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
